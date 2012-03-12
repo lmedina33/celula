@@ -8,6 +8,7 @@
 	<name>Celula</name>
 	<modules>
 		<module>Celula-View</module>
+		<module>util</module>
 	</modules>
 	
 	<dependencies>
