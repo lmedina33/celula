@@ -5,7 +5,7 @@
 		<artifactId>Celula</artifactId>
 		<groupId>co.edu.cideca</groupId>
 		<version>1.0-SNAPSHOT</version>
-	</parent>	
+	</parent>
 	<artifactId>util</artifactId>
 	<packaging>jar</packaging>
 	<name>utilcideca</name>
@@ -59,8 +59,8 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-	
-	
+
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -72,6 +72,11 @@
 					concurrency, creation and serialization and System properties. Additionally 
 					it contains basic enhancements to java.util.Date and a series of utilities 
 					dedicated to help with building methods, such as hashCode, toString and equals. -->
+			</dependency>
+			<dependency>
+				<groupId>commons-beanutils</groupId>
+				<artifactId>commons-beanutils</artifactId>
+				<version>1.8.3</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
