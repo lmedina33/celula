@@ -1,0 +1,1 @@
+Este proyecto viene con la necesidad de hacer un proyecto libre para escuelas sin recursos y que puedan adaptar el sistema a las necesidades del colegio.
